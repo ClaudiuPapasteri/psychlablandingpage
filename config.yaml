@@ -1,0 +1,28 @@
+baseurl: /
+languageCode: en-US
+title: Bulma for Hugo
+paginate: 5
+theme: bulma
+enableRobotsTXT: yes
+googleAnalytics: ''
+disqusShortname: ''
+SectionPagesMenu: main
+params:
+  description: A Simple Blog with Bulma
+  github: github
+  hide_author: no
+  images: []
+  powered_by: love
+  theme_variant: ''
+  twitter: twitter
+  
+# suggested by blogdown
+ignoreFiles:
+- \.Rmd$
+- \.Rmarkdown$
+- _cache$  
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true

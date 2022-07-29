@@ -37,3 +37,11 @@ vignettes/*.pdf
 
 # R Environment Variables
 .Renviron
+
+# suggested by blogdown
+.DS_Store
+Thumbs.db
+# when Netlify builds your site
+/public/        
+/resources/
+
