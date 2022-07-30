@@ -1,7 +1,15 @@
 .is-dark {
   background-color: rgb(187, 56, 89);
-  background-image: linear-gradient(rgba(25, 181, 254, 0.6),rgba(246, 36, 89, 0.6)),linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url('https://images.unsplash.com/photo-1422479278902-8cef24992df0?dpr=1&auto=format&fit=crop&w=1500&h=1001&q=80&cs=tinysrgb&crop=');
+  
+  background-image: linear-gradient(135deg, rgba(25, 181, 254, 0.812) 0%, rgba(246, 36, 89, 0.812) 100%);
+  
+  /*
+    background-image: linear-gradient(rgba(25, 181, 254, 0.6),rgba(246, 36, 89, 0.6)),linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url('https://images.unsplash.com/photo-1422479278902-8cef24992df0?dpr=1&auto=format&fit=crop&w=1500&h=1001&q=80&cs=tinysrgb&crop=');
+  */
 }
+
+
+
 .navbar-item {
   font-weight: bold;
   text-transform: uppercase;
@@ -14,3 +22,36 @@
   padding: 10px 20px;
   height: 45px;
 }
+
+
+
+/* Added Video Backgroud */
+#bgvideo {
+  position: fixed;
+    
+  /* Make video to at least 100% wide and tall */
+  min-width: 100%; 
+  min-height: 100%; 
+
+  /* Setting width & height to auto prevents the browser from stretching or squishing the video */
+  width: auto;
+  height: auto;
+}
+
+/* Video Backgroud with Background wrapper over */   
+.vidwrapper {
+  position: fixed;
+  width: 100%;
+}
+
+.vidwrapper::after {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  content: '';
+  background-image: linear-gradient(135deg, rgba(25, 181, 254, 0.8) 0%, rgba(246, 36, 89, 0.8) 100%);
+}   
+
+
+
+  

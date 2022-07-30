@@ -1,6 +1,6 @@
-baseurl: /
+baseurl: https://psychlablandingpage.netlify.app/ 
 languageCode: en-US
-title: Bulma for Hugo
+title: Welcome
 paginate: 5
 theme: bulma
 enableRobotsTXT: yes
@@ -8,21 +8,23 @@ googleAnalytics: ''
 disqusShortname: ''
 SectionPagesMenu: main
 params:
-  description: A Simple Blog with Bulma
-  github: github
+  description: Sign up to stay in touch
+  # github: github
   hide_author: no
   images: []
-  powered_by: love
+  powered_by: 
   theme_variant: ''
-  twitter: twitter
+  # twitter: twitter
+  youtube: "channel/UCosMp1GEG68ByDqFL_NlCZA"
+  github: "ClaudiuPapasteri"
   
-# suggested by blogdown
-ignoreFiles:
-- \.Rmd$
-- \.Rmarkdown$
-- _cache$  
-
 markup:
   goldmark:
     renderer:
       unsafe: true
+      
+# suggested by blogdown
+ignoreFiles:
+- \.Rmd$
+- \.Rmarkdown$
+- _cache$        
