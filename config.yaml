@@ -15,7 +15,7 @@ params:
   powered_by: 
   theme_variant: ''
   # twitter: twitter
-  youtube: "channel/UCosMp1GEG68ByDqFL_NlCZA"
+  # youtube: "channel/UCosMp1GEG68ByDqFL_NlCZA"    # not implemented yet
   github: "ClaudiuPapasteri"
   
 markup:
