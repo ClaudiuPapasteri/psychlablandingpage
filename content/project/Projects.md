@@ -15,4 +15,3 @@ title: Project
 
 our boboceis are working hard on it ...
 
-![](boboceis.jpg)
