@@ -20,7 +20,7 @@ our boboceis are working hard on it ...
 <!-- some css for the image -->
 <style>
   img[alt="minipic"] { 
-    width: 80%;
+    width: 100%;
     height: auto;
   }
 </style>
