@@ -15,7 +15,7 @@ weight: 2
 </style>
 -->
 
-<!-- some css for the table -->
+<!-- some css for the table 
 <style>
 td, th {
    border: none!important;
@@ -39,35 +39,67 @@ td{
     table-layout: fixed;
 }
 </style>
+-->
 
+<!-- ![minipic](https://github.com/ClaudiuPapasteri/psychlablandingpage/blob/main/themes/bulma/images/boboceis.jpg?raw=true) -->
 
 ### **Applications**
 
-<br>
+&nbsp;  
 
-You can access our applications from here
+You can access our applications from here.
 
+&nbsp;  
 
-
-
-<!-- ![minipic](https://github.com/ClaudiuPapasteri/psychlablandingpage/blob/main/themes/bulma/images/boboceis.jpg?raw=true) --> 
-
+&nbsp;  
 
 #### **User Access**
 
-Surveys                                                      | Personal Dashboard
-:-----------------------------------------------------------:|:--------------------:
-[![](/limesurvey.png)](https://survey.psychlab.eu)           | ![](/coming_soon.png)
+
+<!--
+|                      Surveys                             | 
+|:--------------------------------------------------------:|
+| [![](/limesurvey.png)](https://survey.psychlab.eu)       |
+|                                                          |
+
+|                 Personal Dashboard                       | 
+|:--------------------------------------------------------:|
+| ![](/coming_soon.png)                                    |
+|                                                          |
+-->
+
+|                      Surveys                             |                    Personal Dashboard                    |
+|:--------------------------------------------------------:|:--------------------------------------------------------:|
+| [![](/limesurvey.png)](https://survey.psychlab.eu)       | ![](/coming_soon.png)                                    |
+|                                                          |                                                          |
 
 
-<br>
-<br>
+&nbsp;  
 
+&nbsp;  
 
 #### **Admin Access**
 
-Surveys                                                      | Server access
-:-----------------------------------------------------------:|:--------------------:
-[![](/limesurvey.png)](https://survey.psychlab.eu/admin)     | [![](/guacamole.png)](https://guac.psychlab.eu)
+<!--
+|                      Surveys                             | 
+|:--------------------------------------------------------:|
+| [![](/limesurvey.png)](https://survey.psychlab.eu/admin) |
+|                                                          |
 
+|                     Server access                        | 
+|:--------------------------------------------------------:|
+| [![](/guacamole.png)](https://guac.psychlab.eu)          |
+|                                                          |
+-->
+
+
+|                         Surveys                          |                       Server access                      |
+|:--------------------------------------------------------:|:--------------------------------------------------------:|
+| [![](/limesurvey.png)](https://survey.psychlab.eu/admin) | [![](/guacamole.png)](https://guac.psychlab.eu)          |
+|                                                          |                                                          |
+
+|                         R Server                         |                                                          |
+|:--------------------------------------------------------:|:--------------------------------------------------------:|
+| [![](/rstudio.png)](https://rserv.psychlab.eu)        | ![](/empty.png)                                          |                             
+|                                                          |                                                          |
 
