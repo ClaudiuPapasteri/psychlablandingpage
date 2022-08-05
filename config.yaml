@@ -1,4 +1,5 @@
-baseurl: https://psychlablandingpage.netlify.app/ 
+baseurl: https://psychlablandingpage.netlify.app/
+author: "Claudiu C. Papasteri"
 languageCode: en-US
 title: Welcome
 paginate: 5
@@ -6,7 +7,7 @@ theme: bulma
 enableRobotsTXT: yes
 googleAnalytics: ''
 disqusShortname: ''
-SectionPagesMenu: main
+SectionPagesMenu: ''
 params:
   description: Sign up to stay in touch
   # github: github
@@ -17,7 +18,7 @@ params:
   # twitter: twitter
   # youtube: "channel/UCosMp1GEG68ByDqFL_NlCZA"    # not implemented yet
   github: "ClaudiuPapasteri"
-  
+
 markup:
   goldmark:
     renderer:
@@ -27,4 +28,7 @@ markup:
 ignoreFiles:
 - \.Rmd$
 - \.Rmarkdown$
-- _cache$        
+- _cache$
+
+
+

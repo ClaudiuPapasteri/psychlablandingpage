@@ -1,4 +1,4 @@
-# Personal website
+# PsychLab EU website
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/2c887592-e6a7-44da-9285-cda7761030c3/deploy-status)](https://app.netlify.com/sites/psychlablandingpage/deploys)
 
