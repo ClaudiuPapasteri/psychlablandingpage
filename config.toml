@@ -1,7 +1,7 @@
 baseurl = "https://psychlablandingpage.netlify.app/" # Controls base URL
 author = "your name"
 languageCode = "en-US" # Controls html lang attribute
-title = "PsychLab EU" # Homepage title and page title suffix
+title = "Welcome" # Homepage title and page title suffix
 paginate = 5 # Number of posts to show before paginating
 theme = "bulma" # to use as default theme
 
