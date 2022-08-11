@@ -43,7 +43,7 @@
               <div class="status">
                 <div style="display:inline-block;vertical-align:top;text-align:center;">
                   <h2 class="subtitle is-three-fifths">
-                  <span> Server availability: </span>
+                  <span> {{ .Site.Params.servtext }} </span>
                   </h2>
                 </div>
                 <div style="display:inline-block;vertical-align:top;margin:auto">  
@@ -58,7 +58,7 @@
             
             <!-- Signup here -->
             <h2 class="subtitle is-three-fifths">
-              {{ .Site.Params.description}}
+              {{ .Site.Params.signuptext }}
             </h2>
          
             
@@ -91,7 +91,7 @@
             <div class="mc-field-group">
             	<!-- <label for="mce-EMAIL">Email Address <span class="asterisk">*</span> -->
             </label>
-            	<input type="email" value="" name="EMAIL" id="mce-EMAIL" placeholder="Email Address: you@example.org" class="input is-large"> <!-- class="required email" -->
+            	<input type="email" value="" name="EMAIL" id="mce-EMAIL" placeholder={{ .Site.Params.signupplaceholder }} class="input is-large"> <!-- class="required email" -->
             </div>
             	<div id="mce-responses" class="clear foot">
             		<div class="response" id="mce-error-response" style="display:none"></div>

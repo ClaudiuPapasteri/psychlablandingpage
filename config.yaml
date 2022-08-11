@@ -1,7 +1,7 @@
 baseurl: https://psychlablandingpage.netlify.app/
 author: "Claudiu C. Papasteri"
 languageCode: en-US
-title: Welcome
+# title: Welcome
 paginate: 5
 theme: bulma
 enableRobotsTXT: yes
@@ -9,7 +9,7 @@ googleAnalytics: ''
 disqusShortname: ''
 SectionPagesMenu: ''
 params:
-  description: Sign up now to stay in touch with us
+  # description: Sign up now to stay in touch with us
   # github: github
   hide_author: no
   images: []
