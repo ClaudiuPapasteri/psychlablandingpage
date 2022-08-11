@@ -53,5 +53,16 @@
 }   
 
 
+/* Status Badge */ 
+.status {
+  display: flex;
+  align-items: center;
+}
+          
+span {
+  padding: 10px;
+}
+
+
 
   

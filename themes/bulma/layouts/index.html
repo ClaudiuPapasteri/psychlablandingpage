@@ -3,9 +3,10 @@
 
 {{ define "main" }}
 
+<!-- Status Badge js -->
+<script type="module" src="https://cdn.freshstatus.io/widget/index.js"></script>
 
-
-
+<!-- Page Starts here -->
 <section class="hero is-fullheight is-dark">
   
   <!-- Added Video Backgroud -->
@@ -35,13 +36,27 @@
              {{ .Site.Title }}
             </h1>
             
-            <br>
-            <!-- Badge here -->
-            <h2 class="subtitle is-three-fifths">
-              Server availability: 
-            </h2>
-            <br>
+            <br />&nbsp;<br />
+
             
+            <!-- Status Badge here -->
+              <div class="status">
+                <div style="display:inline-block;">
+                  <h2 class="subtitle is-three-fifths">
+                  <span> Server availability: &nbsp;</span>
+                  </h2>
+                </div>
+                <div style="display:inline-block;vertical-align:top;">  
+                  <a href="https://psychlab.freshstatus.io" id="freshstatus-badge-root" data-banner-style="highlighted">
+                    <img src="https://public-api.freshstatus.io/v1/public/badge.svg/?badge=0dda28aa-a56c-4945-b97f-8494841461d4" />
+                  </a>
+                </div>
+              </div>  
+              
+            <br />&nbsp;<br />
+
+            
+            <!-- Signup here -->
             <h2 class="subtitle is-three-fifths">
               {{ .Site.Params.description}}
             </h2>
