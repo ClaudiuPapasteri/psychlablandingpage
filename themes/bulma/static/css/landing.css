@@ -53,16 +53,14 @@
 }   
 
 
-/* Status Badge */ 
+/* Status Badge div -- not used any more 
 .status {
   display: flex;
   align-items: center;
   margin: auto;
+  vertical-align: top;
 }
-          
-span {
-  padding: 10px;
-}
+*/          
 
 
 
